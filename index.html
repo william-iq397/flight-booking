@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full w-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/8cdfa6da34.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>HOME</title>
+  </head>
+  <body class="font-serif font-black h-full w-full">
+    <header
+      class="font-serif font-black flex justify-between items-center w-full py-5 text-black font-medium"
+    >
+      <h1 id="logo" class="text-3xl m-0 w-2/12 text-center">
+        Trav<span class="text-orange-400">oo</span>l
+      </h1>
+      <div
+        class="nav_container w-full md:w-10/12 lg:w-8/12 h-full flex sm:justify-end"
+      >
+        <ul
+          id="unorderlist"
+          class="sm:flex sm:flex-column sm:ml-6 sm:gap-6 sm:text-sm md:text-sm text-center w-full sm:w-full md:w-11/12 h-full hidden hide_nav nav_bar"
+        >
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid border-white rounded-2xl hover:bg-white hover:border-orange-400 cursor-pointer sm:text-orange-500 hover:text-orange-400"
+          >
+            Home
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid border-white rounded-2xl hover:bg-white hover:text-orange-400 cursor-pointer"
+          >
+            Destinations
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid border-white rounded-2xl hover:bg-white hover:text-orange-400 hover:border-white cursor-pointer"
+          >
+            Hotels
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid rounded-2xl hover:bg-white hover:text-orange-500 cursor-pointer"
+          >
+            Flight
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid rounded-2xl hover:bg-white hover:text-orange-500 cursor-pointer"
+          >
+            Bookings
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid rounded-2xl hover:bg-white hover:text-orange-500 cursor-pointer"
+          >
+            Login
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid rounded-2xl hover:bg-white hover:text-orange-500 cursor-pointer"
+          >
+            Sign up
+          </li>
+          <li
+            id="li"
+            class="transition-all duration-200 text-left border-solid rounded-2xl hover:bg-orange-400 hover:text-white cursor-pointer"
+          >
+            EN
+          </li>
+        </ul>
+      </div>
+      <i
+        id="menu_icon"
+        class="fa-solid fa-bars m-1 text-lg sm:hidden absolute right-4 top-6"
+      ></i>
+    </header>
+
+    <main class="flex flex-col">
+      <!--FIRST SECTION-->
+
+      <section
+        class="flex flex-col flex-col-reverse sm:flex-row flex justify-between m-0 p-0"
+      >
+        <div class="First_container w-full sm:w-2/4">
+          <div
+            class="text_container flex flex-col gap-6 p-12 items-start w-full sm:w-full"
+          >
+            <h1 class="text-5xl sm:text-7xl w-full">
+              Travel ,<span class="text-orange-600">enjoy</span> and live a new
+              and full life
+            </h1>
+            <p>
+              we search and compare flight prices across all airlines just so
+              you don't have to do it Yourself! Fast, reliable and affordable.
+              Book cheap flights with Travool Today!.
+            </p>
+            <button
+              class="border border-white border-solid rounded-lg bg-orange-500 text-white font-sans hover:scale-110 hover:duration-200 w-44 h-20"
+            >
+              Find more out
+            </button>
+          </div>
+        </div>
+        <div
+          class="Second_container w-full sm:w-1/2 relative flex items-start justify-center"
+        >
+          <img class="w-full h-screen sm:pb-12" src="images/webtravel.png" />
+        </div>
+
+        <img
+          class="absolute right-0 top-0 w-full sm:w-2/4 -z-10"
+          src="/images/2.png"
+        />
+      </section>
+
+      <!-- SECOND SECTION -->
+
+      <section class="w-full my-4 sm:h-96">
+        <h1 class="text-center my-12 font-black text-2xl">
+          We Offer Amazing Services
+        </h1>
+        <div
+          class="services_cards flex flex-col items-center gap-6 sm:gap-0 sm:flex-row sm:justify-around"
+        >
+          <div
+            class="offers_card w-44 h-52 flex border border-gray-400 border-solid rounded-lg"
+          >
+            <div
+              class="cardInformationOne h-full w-full flex flex-col justify-between items-center p-2"
+            >
+              <i class="fa-solid fa-plane-departure text-4xl"></i>
+              <h4 class="text-sm text-center w-full">comfortability</h4>
+              <p class="text-xs text-center">
+                We try hard to maintain the comfortability our Clients while
+                using our services
+              </p>
+            </div>
+          </div>
+          <div
+            class="offers_card w-44 h-52 border border-gray-400 border-solid rounded-lg"
+          >
+            <div
+              class="cardInformationOne h-full w-full flex flex-col justify-between items-center p-2"
+            >
+              <i class="fa-solid fa-cloud text-4xl"></i>
+              <h4 class="text-sm text-center w-full">Calculated Weather</h4>
+              <p class="text-xs text-center">
+                We constantly calculate the weather to check when the the flight
+                should be.
+              </p>
+            </div>
+          </div>
+          <div
+            class="offers_card w-44 h-52 border border-gray-400 border-solid rounded-lg"
+          >
+            <div
+              class="cardInformationOne h-full w-full flex flex-col justify-between items-center p-2"
+            >
+              <i class="fa-solid fa-location-dot text-4xl"></i>
+              <h4 class="text-sm text-center w-full">
+                Any Location in the world
+              </h4>
+              <p class="text-xs text-center">
+                We offer Services anywhere in the world
+              </p>
+            </div>
+          </div>
+          <div
+            class="offers_card w-44 h-52 border border-gray-400 border-solid rounded-lg"
+          >
+            <div
+              class="cardInformationOne h-full w-full flex flex-col justify-between items-center p-2"
+            >
+              <i class="fa-solid fa-sack-dollar text-4xl"></i>
+              <h4 class="text-sm text-center w-full">Affordable</h4>
+              <p class="text-xs text-center">Travool is very Affordable</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- THIRD SECTION -->
+
+      <section class="w-full h-full py-4 pb-16 bg-orange-400">
+        <h1 class="text-2xl text-white text-center py-8">
+          Our Top Destinations
+        </h1>
+        <div
+          class="Destinations_cards h-full w-full flex flex-col sm:flex-wrap lg:flex-nowrap sm:flex-row gap-12 sm:gap-4 justify-around items-center"
+        >
+          <div
+            class="Destination_card w-72 h-72 border border-solid border-orange-400 rounded-lg bg-white border-b-2 border-b-slate-500"
+          >
+            <img
+              src="images/download.jfif"
+              alt="greece"
+              class="h-5/6 w-full rounded-lg"
+            />
+            <figcaption class="text-left p-2">Greece</figcaption>
+          </div>
+          <div
+            class="Destination_card w-72 h-72 border border-solid border-orange-400 rounded-lg bg-white border-b-2 border-b-slate-500"
+          >
+            <img
+              src="images/london.jfif"
+              alt="greece"
+              class="h-5/6 w-full rounded-lg"
+            />
+            <figcaption class="text-left p-2">London</figcaption>
+          </div>
+          <div
+            class="Destination_card w-72 h-72 border border-solid border-orange-400 rounded-lg bg-white border-b-2 border-b-slate-500"
+          >
+            <img
+              src="images/Italy-Country-Spotlight_1376x920.jpg"
+              alt="greece"
+              class="h-5/6 w-full rounded-lg"
+            />
+            <figcaption class="text-left p-2">Italy</figcaption>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOURTH SECTION -->
+      <section class="booking_section w-full h-full py-24">
+        <h1 class="text-center text-bold text-xl">
+          Book Your Next Trip In
+          <span class="text-orange-500">Four Easy Steps</span> .
+        </h1>
+        <div
+          class="booing_cards w-full h-max sm:flex-wrap lg:flex-nowrap flex flex-col sm:flex-row justify-around items-center gap-4 py-12"
+        >
+          <div
+            class="booking_card w-80 flex flex-col justify-evenly sm:w-96 h-96 border border-solid border-black rounded-lg"
+          >
+            <!-- FIRST CARD -->
+            <div
+              class="content_of_two_section w-full flex gap-4 justify-around items-center p-4 py-12"
+            >
+              <!--give flex and flex-col -->
+              <i class="fa-solid fa-location-dot text-4xl"></i>
+              <!--ICON-->
+              <div class="PickADestination flex flex-col">
+                <!--give flex and flex-col -->
+                <h6>Pick a Destination</h6>
+                <p class="text-xs">You Have preferred location? Let us Know!</p>
+              </div>
+            </div>
+
+            <div
+              class="content_of_two_section w-full flex gap-4 flex-start items- p-4 py-12"
+            >
+              <!--give flex and flex-col -->
+              <i class="fa-solid fa-sack-dollar text-4xl"></i>
+              <div class="MakeAPayment flex flex-col">
+                <h6>Make Payment</h6>
+                <p class="text-xs">All at Affordable Prices.</p>
+              </div>
+            </div>
+          </div>
+          <!-- SECOND CARD -->
+          <div
+            class="booking_card w-80 sm:w-96 h-96 border border-solid border-black rounded-lg"
+          >
+            <!-- IMAGE OF THE GIRL IN BETWEEN -->
+            <img
+              src="images/girl.jpg"
+              alt="girl traveling"
+              class="w-full h-full rounded"
+            />
+          </div>
+          <!-- THIRD CARD -->
+          <div
+            class="booking_card w-80 flex flex-col justify-evenly sm:w-96 h-96 border border-solid border-black rounded-lg"
+          >
+            <div
+              class="content_of_two_section w-full flex gap-4 justify-around items-center p-4 py-12"
+            >
+              <!--give flex and flex-col -->
+              <i class="fa-solid fa-plane-departure text-4xl"></i
+              ><!--ICON-->
+              <div class="PickADestination flex flex-col">
+                <!--give flex and flex-col -->
+                <h6>Pick an airport</h6>
+                <p class="text-xs">We'll give more than enough.</p>
+              </div>
+            </div>
+
+            <div
+              class="content_of_two_section w-full flex gap-4 flex-start items-start justify-around p-4 py-12"
+            >
+              <!--give flex and flex-col -->
+              <i class="fa-solid fa-plane-departure text-4xl"></i>
+              <div class="MakeAPayment flex flex-col">
+                <h6>Time to Move</h6>
+                <p class="text-xs">Find Your way to the airport.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--booking card-->
+      </section>
+      <!--FOURTH SECTION-->
+
+      <!-- FIFTH SECTION -->
+      <section class="WhatPeopleSayAboutUs w-full h-full py-28">
+        <h1 class="text-black text-center text-2xl">
+          What People Say About Us
+        </h1>
+        <div
+          class="PeopleCards w-full py-12 flex gap-6 sm:flex-wrap lg:flex-nowrap flex-col sm:flex-row justify-around items-center"
+        >
+          <div
+            class="PeopleOpinionCard w-80 h-44 border border-solid border-gray-400 rounded-lg flex flex-col justify-between"
+          >
+            <!--flex flex-col-->
+            <div
+              class="Identifier flex flex-row flex-start items-center w-full p-2"
+            >
+              <!--flex flex-row-->
+              <img
+                src="images/hasan Khalid.jpg"
+                alt="Hasan Khalid"
+                class="w-20 rounded-3xl"
+              />
+              <h4 class="text-center w-full">Hasan Khalid</h4>
+            </div>
+            <div class="Opinion p-4">
+              <p>This is the worse service I have ever seen.</p>
+            </div>
+          </div>
+          <div
+            class="PeopleOpinionCard w-80 h-44 border border-solid border-gray-400 rounded-lg flex flex-col justify-between"
+          >
+            <!--flex flex-col-->
+            <div
+              class="Identifier flex flex-row flex-start items-center w-full p-2"
+            >
+              <!--flex flex-row-->
+              <img
+                src="images/ahmed.jpg"
+                alt="Ahmed Abd Alkareem"
+                class="w-20 rounded-3xl"
+              />
+              <h4 class="text-center w-full">Ahmed Abd-Alkareem</h4>
+            </div>
+            <div class="Opinion p-4">
+              <p>Don't give him a fuck, He is always negative.</p>
+            </div>
+          </div>
+          <div
+            class="PeopleOpinionCard w-80 h-44 border border-solid border-gray-400 rounded-lg flex flex-col justify-between"
+          >
+            <!--flex flex-col-->
+            <div
+              class="Identifier flex flex-row flex-start items-center w-full p-2"
+            >
+              <!--flex flex-row-->
+              <img
+                src="images/william.jpg"
+                alt="hasan mohamed"
+                class="w-20 rounded-3xl"
+              />
+              <h4 class="text-center w-full">Hasan Mohamed.</h4>
+            </div>
+            <div class="Opinion p-4">
+              <p>Even though, I love both from all my heart.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FOOTER -->
+
+      <footer class="bg-orange-400 w-full h-full sm:h-96 py-8 text-white">
+        <div
+          class="informationContainer flex flex-col sm:flex-row p-12 gap-8 justify-around items-start"
+        >
+          <div class="infoCardOne w-56 flex flex-col gap-3 sm:gap-4">
+            <h6 class="text-lg">Travool</h6>
+            <p class="text-justify">Book Cheap Flights With Travel Today</p>
+          </div>
+
+          <div class="infoCardTwo w-36 flex flex-col gap-3 sm:gap-4">
+            <h6 class="text-lg">Quick Links</h6>
+            <ul class="list-none">
+              <li>Home</li>
+              <li>Destination</li>
+              <li>Hotels</li>
+              <li>Flights</li>
+              <li>Booking</li>
+            </ul>
+          </div>
+
+          <div class="infoCardThree flex flex-col gap-3 sm:gap-4">
+            <h6 class="text-lg">Services</h6>
+            <p>Book Flights</p>
+          </div>
+          <div class="infoCardFour flex flex-col gap-3 sm:gap-4">
+            <h6 class="text-lg">Contacts</h6>
+            <p>MyEmail.iq_397@gmail.com</p>
+            <div
+              class="iconsContainer w-fit flex justify-between gap-6 text-2xl"
+            >
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-github"></i>
+              <i class="fa-brands fa-twitter"></i>
+            </div>
+          </div>
+        </div>
+
+        <hr />
+
+        <p class="text-center py-6">
+          CopyRight &#169; 2022 Travool. All Rights reserved
+        </p>
+      </footer>
+    </main>
+    <script src="js/script.js"></script>
+  </body>
+</html>
